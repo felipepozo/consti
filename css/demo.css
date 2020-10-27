@@ -144,11 +144,7 @@ a:focus {
 	top: 0;
 }
 
-.codrops-icon {
-	pointer-events: visible;
-	display: inline-block;
-	padding: 0.6em;
-}
+
 
 /* Demo links */
 .demos {
@@ -224,8 +220,13 @@ a:focus {
 	margin: 0;
 }
 
+input {
+	width: 100%;
+  }
+
 .content__title--center {
 	margin: auto;
+	top: -5;
 }
 
 .content__title--right {
@@ -250,16 +251,26 @@ a:focus {
 	display: inline-block;
 	white-space: nowrap;
 	position: relative;
+	font-size: 35px ;
+	top: -5;
 }
 
 .content__title__inner--offset-1 {
-	top: -0.25em;
-	left: 13.6vw;
+	top: -0.9em;
+	left: 10vw;
 }
 
 .content__title__inner--offset-2 {
-	top: -0.25em;
+	top: -3em;
 	left: 1.75vw;
+	height:200px;
+    font-size:14pt
+}
+
+#textboxid
+{
+    height:200px;
+    font-size:14pt;
 }
 
 .content__title__inner--offset-3 {
